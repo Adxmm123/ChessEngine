@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\black-bishop.png" />
+    <None Remove="Assets\black-king.png" />
+    <None Remove="Assets\black-knight.png" />
+    <None Remove="Assets\black-pawn.png" />
+    <None Remove="Assets\black-queen.png" />
+    <None Remove="Assets\black-rook.png" />
+    <None Remove="Assets\white-bishop.png" />
+    <None Remove="Assets\white-king.png" />
+    <None Remove="Assets\white-knight.png" />
+    <None Remove="Assets\white-pawn.png" />
+    <None Remove="Assets\white-queen.png" />
+    <None Remove="Assets\white-rook.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Include="App.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\black-bishop.png" />
+    <Resource Include="Assets\black-king.png" />
+    <Resource Include="Assets\black-knight.png" />
+    <Resource Include="Assets\black-pawn.png" />
+    <Resource Include="Assets\black-queen.png" />
+    <Resource Include="Assets\black-rook.png" />
+    <Resource Include="Assets\white-bishop.png" />
+    <Resource Include="Assets\white-king.png" />
+    <Resource Include="Assets\white-knight.png" />
+    <Resource Include="Assets\white-pawn.png" />
+    <Resource Include="Assets\white-queen.png" />
+    <Resource Include="Assets\white-rook.png" />
+  </ItemGroup>
+
+</Project>
