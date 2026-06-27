@@ -1,4 +1,4 @@
-# ChessEngine
+# ♟️ ChessEngine
 This is an attempt at building my own chess engine using C# and WPF.
 It is made through the use of many techniques such as alpha-beta minimax searching and iterative deepening to make it as strong and efficient as I can.
 
